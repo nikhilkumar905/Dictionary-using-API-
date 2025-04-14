@@ -1,4 +1,4 @@
-Dictionary using API![Screenshot 2025-04-14 125808](https://github.com/user-attachments/assets/24d88d94-88dc-4dea-b326-3ab18e47a5dc)
+Dictionary using API!
 
 A sleek, modern dictionary desktop app built using Python's tkinter GUI, powered by the Free Dictionary API. It allows you to search for word meanings, synonyms, antonyms, and even hear the results aloud. It also supports voice input and keeps track of your search history.
 
@@ -62,6 +62,7 @@ python your_script_name.py
 main.py – Your main GUI and app logic
 
 dictionary.log – Stores runtime errors
+[Screenshot 2025-04-14 125808](https://github.com/user-attachments/assets/24d88d94-88dc-4dea-b326-3ab18e47a5dc)
 
 word_history.txt – Keeps a record of searched words
 
