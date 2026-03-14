@@ -1,0 +1,137 @@
+2026-03-14 21:43:26,178 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.161.45:5000
+2026-03-14 21:43:26,178 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-14 21:43:26,191 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-14 21:43:26,808 - WARNING -  * Debugger is active!
+2026-03-14 21:43:26,811 - INFO -  * Debugger PIN: 220-625-575
+2026-03-14 21:43:46,920 - INFO - 127.0.0.1 - - [14/Mar/2026 21:43:46] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 21:47:17,078 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.161.45:5000
+2026-03-14 21:47:17,079 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-14 21:47:17,087 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-14 21:47:17,687 - WARNING -  * Debugger is active!
+2026-03-14 21:47:17,690 - INFO -  * Debugger PIN: 220-625-575
+2026-03-14 21:47:53,915 - INFO - 127.0.0.1 - - [14/Mar/2026 21:47:53] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 21:48:08,676 - INFO - 127.0.0.1 - - [14/Mar/2026 21:48:08] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:48:08,683 - INFO - 127.0.0.1 - - [14/Mar/2026 21:48:08] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:48:15,823 - INFO - 127.0.0.1 - - [14/Mar/2026 21:48:15] "GET /api/search?word=rain HTTP/1.1" 200 -
+2026-03-14 21:48:15,838 - INFO - 127.0.0.1 - - [14/Mar/2026 21:48:15] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:48:39,607 - INFO - 127.0.0.1 - - [14/Mar/2026 21:48:39] "DELETE /api/history HTTP/1.1" 200 -
+2026-03-14 21:51:14,291 - INFO - 127.0.0.1 - - [14/Mar/2026 21:51:14] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:51:14,300 - INFO - 127.0.0.1 - - [14/Mar/2026 21:51:14] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:09,791 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:09] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:09,795 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:09] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:10,730 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:10] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:10,734 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:10] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:10,910 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:10] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:10,914 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:10] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,076 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,079 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,246 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,249 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,426 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,429 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,601 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,605 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,772 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:52:11,776 - INFO - 127.0.0.1 - - [14/Mar/2026 21:52:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:04,862 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:04] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:29,903 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:29] "GET /api/search?word=cucumber HTTP/1.1" 200 -
+2026-03-14 21:53:29,919 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:29] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:45,394 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tkinter\\__init__.py', reloading
+2026-03-14 21:53:46,289 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-14 21:53:47,419 - WARNING -  * Debugger is active!
+2026-03-14 21:53:47,422 - INFO -  * Debugger PIN: 220-625-575
+2026-03-14 21:53:54,966 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:54] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:54,970 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:54] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:55,879 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:55] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:55,882 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:55] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:56,538 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:56] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:56,542 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:56] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:56,760 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:56] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:56,764 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:56] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:57,098 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:57] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:53:57,102 - INFO - 127.0.0.1 - - [14/Mar/2026 21:53:57] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:54:19,897 - INFO - 127.0.0.1 - - [14/Mar/2026 21:54:19] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:54:19,901 - INFO - 127.0.0.1 - - [14/Mar/2026 21:54:19] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:55:12,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.161.45:5000
+2026-03-14 21:55:12,360 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-14 21:55:12,369 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-14 21:55:12,992 - WARNING -  * Debugger is active!
+2026-03-14 21:55:12,996 - INFO -  * Debugger PIN: 220-625-575
+2026-03-14 21:55:28,653 - INFO - 127.0.0.1 - - [14/Mar/2026 21:55:28] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:55:28,656 - INFO - 127.0.0.1 - - [14/Mar/2026 21:55:28] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:55:45,357 - INFO - 127.0.0.1 - - [14/Mar/2026 21:55:45] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 21:56:02,222 - INFO - 127.0.0.1 - - [14/Mar/2026 21:56:02] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:56:02,229 - INFO - 127.0.0.1 - - [14/Mar/2026 21:56:02] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:58:04,892 - INFO - 127.0.0.1 - - [14/Mar/2026 21:58:04] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:58:04,897 - INFO - 127.0.0.1 - - [14/Mar/2026 21:58:04] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 21:58:51,141 - INFO - 127.0.0.1 - - [14/Mar/2026 21:58:51] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:04:22,152 - INFO - 127.0.0.1 - - [14/Mar/2026 22:04:22] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:04:22,157 - INFO - 127.0.0.1 - - [14/Mar/2026 22:04:22] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:06:32,274 - INFO - 127.0.0.1 - - [14/Mar/2026 22:06:32] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:06:32,278 - INFO - 127.0.0.1 - - [14/Mar/2026 22:06:32] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:09:20,179 - INFO - 127.0.0.1 - - [14/Mar/2026 22:09:20] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:09:20,187 - INFO - 127.0.0.1 - - [14/Mar/2026 22:09:20] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:09:35,852 - INFO - 127.0.0.1 - - [14/Mar/2026 22:09:35] "GET /api/search?word=join HTTP/1.1" 200 -
+2026-03-14 22:09:35,883 - INFO - 127.0.0.1 - - [14/Mar/2026 22:09:35] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:11:24,659 - INFO - 127.0.0.1 - - [14/Mar/2026 22:11:24] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:13:00,679 - INFO - 127.0.0.1 - - [14/Mar/2026 22:13:00] "GET /api/search?word=app HTTP/1.1" 200 -
+2026-03-14 22:13:00,720 - INFO - 127.0.0.1 - - [14/Mar/2026 22:13:00] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:13:05,220 - INFO - 127.0.0.1 - - [14/Mar/2026 22:13:05] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:13:05,228 - INFO - 127.0.0.1 - - [14/Mar/2026 22:13:05] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:14:13,724 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\api.py', reloading
+2026-03-14 22:14:13,725 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\api.py', reloading
+2026-03-14 22:14:13,811 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\dictionary_service.py', reloading
+2026-03-14 22:14:13,812 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\Dictionary_.py', reloading
+2026-03-14 22:14:13,812 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\Dictionary_.py', reloading
+2026-03-14 22:14:13,812 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\api.py', reloading
+2026-03-14 22:14:13,813 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\api.py', reloading
+2026-03-14 22:14:13,818 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\dictionary_service.py', reloading
+2026-03-14 22:14:13,819 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\Dictionary_.py', reloading
+2026-03-14 22:14:13,819 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\Dictionary_.py', reloading
+2026-03-14 22:14:14,195 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-14 22:14:14,686 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-14 22:14:16,070 - WARNING -  * Debugger is active!
+2026-03-14 22:14:16,081 - INFO -  * Debugger PIN: 220-625-575
+2026-03-14 22:14:16,127 - INFO - 127.0.0.1 - - [14/Mar/2026 22:14:16] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:14:16,135 - INFO - 127.0.0.1 - - [14/Mar/2026 22:14:16] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:14:16,523 - WARNING -  * Debugger is active!
+2026-03-14 22:14:16,532 - INFO -  * Debugger PIN: 220-625-575
+2026-03-14 22:14:28,917 - INFO - 127.0.0.1 - - [14/Mar/2026 22:14:28] "DELETE /api/history HTTP/1.1" 200 -
+2026-03-14 22:15:12,726 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\api.py', reloading
+2026-03-14 22:15:12,727 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\api.py', reloading
+2026-03-14 22:15:12,737 - INFO -  * Detected change in 'C:\\Users\\NIKHIL KUMAR SAH\\Dictionary-using-API-\\backend\\api.py', reloading
+2026-03-14 22:15:13,359 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-14 22:15:13,818 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-14 22:15:20,165 - INFO - 127.0.0.1 - - [14/Mar/2026 22:15:20] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:18:15,632 - INFO - 127.0.0.1 - - [14/Mar/2026 22:18:15] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:18:15,639 - INFO - 127.0.0.1 - - [14/Mar/2026 22:18:15] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:18:24,803 - INFO - 127.0.0.1 - - [14/Mar/2026 22:18:24] "GET /api/search?word=calm HTTP/1.1" 200 -
+2026-03-14 22:18:24,831 - INFO - 127.0.0.1 - - [14/Mar/2026 22:18:24] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:20:44,149 - INFO - 127.0.0.1 - - [14/Mar/2026 22:20:44] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:25:03,246 - INFO - 127.0.0.1 - - [14/Mar/2026 22:25:03] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:25:03,254 - INFO - 127.0.0.1 - - [14/Mar/2026 22:25:03] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:25:13,588 - INFO - 127.0.0.1 - - [14/Mar/2026 22:25:13] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:25:16,280 - INFO - 127.0.0.1 - - [14/Mar/2026 22:25:16] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:25:16,288 - INFO - 127.0.0.1 - - [14/Mar/2026 22:25:16] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:26:43,337 - INFO - 127.0.0.1 - - [14/Mar/2026 22:26:43] "GET /api/search?word=calamity HTTP/1.1" 200 -
+2026-03-14 22:26:43,372 - INFO - 127.0.0.1 - - [14/Mar/2026 22:26:43] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:26:48,261 - INFO - 127.0.0.1 - - [14/Mar/2026 22:26:48] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:27:01,205 - INFO - 127.0.0.1 - - [14/Mar/2026 22:27:01] "GET /api/search?word=corruption HTTP/1.1" 200 -
+2026-03-14 22:27:01,237 - INFO - 127.0.0.1 - - [14/Mar/2026 22:27:01] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:28:11,155 - INFO - 127.0.0.1 - - [14/Mar/2026 22:28:11] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:28:47,412 - INFO - 127.0.0.1 - - [14/Mar/2026 22:28:47] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:28:47,421 - INFO - 127.0.0.1 - - [14/Mar/2026 22:28:47] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:29:01,369 - INFO - 127.0.0.1 - - [14/Mar/2026 22:29:01] "GET /api/search?word=response HTTP/1.1" 200 -
+2026-03-14 22:29:01,400 - INFO - 127.0.0.1 - - [14/Mar/2026 22:29:01] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:30:19,563 - INFO - 127.0.0.1 - - [14/Mar/2026 22:30:19] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:31:28,258 - INFO - 127.0.0.1 - - [14/Mar/2026 22:31:28] "GET /api/history HTTP/1.1" 200 -
+2026-03-14 22:31:28,266 - INFO - 127.0.0.1 - - [14/Mar/2026 22:31:28] "GET /api/history HTTP/1.1" 200 -

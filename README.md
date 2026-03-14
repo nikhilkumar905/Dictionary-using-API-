@@ -1,71 +1,172 @@
-Dictionary using API!
+# Dict नरी — Dictionary using API
 
-A sleek, modern dictionary desktop app built using Python's tkinter GUI, powered by the Free Dictionary API. It allows you to search for word meanings, synonyms, antonyms, and even hear the results aloud. It also supports voice input and keeps track of your search history.
+Modern dictionary app with a React frontend and Flask backend, plus the original Tkinter desktop app preserved.
 
-✨ Features
-🔍 Search Meaning: Enter a word to get definitions, synonyms, and antonyms.
+## Screenshot
 
-🔊 Text-to-Speech: Hear the meaning read aloud.
+![Dict नरी UI](docs/ui-latest.png)
 
-🎤 Voice Input: Speak a word to search using your microphone.
+> Place your new screenshot file at `docs/ui-latest.png` to display it in this README.
 
-📜 Search History: View all previously searched words.
+## Features
 
-🗑️ Clear History: Remove all saved search history.
+- Search meanings, part of speech, synonyms, and antonyms
+- Voice input support in browser (SpeechRecognition)
+- Speak response text (Text-to-Speech in browser)
+- Search history with show/hide and clear history
+- Responsive dark neon UI
+- Original desktop app retained in backend (`backend/Dictionary_.py`)
 
-📁 Logging: Logs any unexpected errors to dictionary.log for easy debugging.
+## Tech Stack
 
-🛠️ Technologies Used
-Python 3
+- Frontend: React + Vite
+- Backend API: Flask + Flask-CORS + Requests
+- Deployment: Vercel (frontend) + Render (backend)
 
-tkinter – GUI
+## Project Structure
 
-requests – API calls
+```text
+.
+├── backend/
+│   ├── Dictionary_.py            # Original Tkinter desktop app
+│   ├── api.py                    # Flask API
+│   ├── dictionary_service.py     # Core dictionary + history logic
+│   ├── requirements.txt          # Desktop/full dependencies
+│   ├── requirements-api.txt      # API/deployment dependencies
+│   ├── .env.example
+│   └── Procfile
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── styles.css
+│   ├── .env.example
+│   ├── vercel.json
+│   └── package.json
+├── render.yaml
+├── PROJECT_REFERENCE.md
+└── README.md
+```
 
-pyttsx3 – Offline Text-to-Speech
+## Prerequisites
 
-speech_recognition – Voice input
+- Python 3.10+ (recommended 3.11+)
+- Node.js 18+ and npm
+- Git
 
-logging – Error logging
+## Local Development
 
-📷 GUI Preview
-<img src="https://via.placeholder.com/600x400?text=Add+Screenshot+Here" alt="App Screenshot" />
-💡 You can replace the image link with a real screenshot of your app.
+### 1) Run Backend API
 
-🚀 Getting Started
-🔧 Prerequisites
-Make sure you have the following Python libraries installed:
+```bash
+cd backend
+pip install -r requirements-api.txt
+python api.py
+```
 
-bash
-Copy
-Edit
-pip install requests pyttsx3 SpeechRecognition
-If using voice input, you may also need:
+Backend starts at `http://localhost:5000`.
 
-bash
-Copy
-Edit
-pip install pyaudio
-For Windows, if pyaudio gives errors, install it using:
+Optional backend env variables:
 
-bash
-Copy
-Edit
-pip install pipwin
-pipwin install pyaudio
-🧩 How to Run
-bash
-Copy
-Edit
-python your_script_name.py
-📂 Files
-main.py – Your main GUI and app logic
+- `FRONTEND_ORIGIN=http://localhost:5173`
+- `PORT=5000`
+- `FLASK_DEBUG=true`
 
-dictionary.log – Stores runtime errors
-[Screenshot 2025-04-14 125808](https://github.com/user-attachments/assets/24d88d94-88dc-4dea-b326-3ab18e47a5dc)
+### 2) Run Frontend
 
-word_history.txt – Keeps a record of searched words
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-🧠 Inspiration
-This project was built to provide a beautiful, beginner-friendly dictionary tool with modern features like voice input and TTS, ideal for learners and developers alike.
+Frontend starts at `http://localhost:5173`.
+
+For local development, `VITE_API_BASE_URL` can be omitted (Vite proxy/local setup handles API calls).
+
+### 3) Build Frontend for Production
+
+```bash
+cd frontend
+npm run build
+```
+
+## Desktop App (Original)
+
+If you want to run the old Tkinter desktop version:
+
+```bash
+cd backend
+pip install -r requirements.txt
+python Dictionary_.py
+```
+
+## API Reference
+
+Base URL (local): `http://localhost:5000`
+
+- `GET /api/health`
+	- Returns API status.
+- `GET /api/search?word=<word>`
+	- Returns dictionary response for a word.
+- `GET /api/history`
+	- Returns search history list.
+- `DELETE /api/history`
+	- Clears search history.
+
+## Environment Variables
+
+### Backend (`backend/.env.example`)
+
+- `FRONTEND_ORIGIN` = Allowed frontend origin(s), comma-separated
+- `PORT` = API server port (Render sets this automatically)
+- `FLASK_DEBUG` = `true` / `false`
+
+### Frontend (`frontend/.env.example`)
+
+- `VITE_API_BASE_URL` = Backend API URL, example:
+	- `https://your-backend-service.onrender.com/api`
+
+## Deploy to Render (Backend)
+
+### Option A: Using `render.yaml` (recommended)
+
+1. Push repository to GitHub.
+2. In Render, create service from blueprint (`render.yaml`).
+3. Confirm service root directory is `backend`.
+4. Ensure env var:
+	 - `FRONTEND_ORIGIN=https://your-frontend.vercel.app`
+
+### Option B: Manual Render Web Service
+
+1. New Web Service from your repo.
+2. Configure:
+	 - Root Directory: `backend`
+	 - Build Command: `pip install -r requirements-api.txt`
+	 - Start Command: `gunicorn api:app`
+3. Add env var `FRONTEND_ORIGIN`.
+
+## Deploy to Vercel (Frontend)
+
+1. Import repo in Vercel.
+2. Set Root Directory to `frontend`.
+3. Framework preset: `Vite`.
+4. Add env var:
+	 - `VITE_API_BASE_URL=https://your-backend-service.onrender.com/api`
+5. Deploy.
+
+`frontend/vercel.json` already includes SPA rewrite routing.
+
+## Troubleshooting
+
+- Backend import errors:
+	- Reinstall dependencies: `pip install -r backend/requirements-api.txt`
+- CORS errors in browser:
+	- Ensure `FRONTEND_ORIGIN` exactly matches your frontend domain
+- Frontend cannot reach backend:
+	- Check `VITE_API_BASE_URL` and backend health endpoint `/api/health`
+
+## Additional Reference
+
+- Full project analysis: `PROJECT_REFERENCE.md`
 
