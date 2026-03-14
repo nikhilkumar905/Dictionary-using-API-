@@ -2,6 +2,10 @@
 
 Modern dictionary app with a React frontend and Flask backend, plus the original Tkinter desktop app preserved.
 
+## Live Deployment
+
+- Frontend (Vercel): https://dictionaryapp-iota.vercel.app/
+
 ## Screenshot
 
 ![Dict नरी UI](docs/ui-latest.png)
@@ -147,6 +151,8 @@ Base URL (local): `http://localhost:5000`
 3. Add env var `FRONTEND_ORIGIN`.
 
 ## Deploy to Vercel (Frontend)
+
+Current live frontend URL: https://dictionaryapp-iota.vercel.app/
 
 1. Import repo in Vercel.
 2. Set Root Directory to `frontend`.
