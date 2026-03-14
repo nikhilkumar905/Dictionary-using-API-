@@ -4,13 +4,13 @@ Modern dictionary app with a React frontend and Flask backend, plus the original
 
 ## Live Deployment
 
-- Frontend (Vercel): https://dictionaryapp-iota.vercel.app/
+- Frontend (Vercel): https://dictionaryapp-9p5omh8z7-nikhilkumar905s-projects.vercel.app/
 
 ## Screenshot
 
-![Dict नरी UI](docs/ui-latest.png)
+![Dict नरी UI](docs/Screenshot.png)
 
-> Place your new screenshot file at `docs/ui-latest.png` to display it in this README.
+> Screenshot is loaded from `docs/Screenshot.png`.
 
 ## Features
 
@@ -152,7 +152,7 @@ Base URL (local): `http://localhost:5000`
 
 ## Deploy to Vercel (Frontend)
 
-Current live frontend URL: https://dictionaryapp-iota.vercel.app/
+Current live frontend URL: https://dictionaryapp-9p5omh8z7-nikhilkumar905s-projects.vercel.app/
 
 1. Import repo in Vercel.
 2. Set Root Directory to `frontend`.
