@@ -4,7 +4,7 @@ Modern dictionary app with a React frontend and Flask backend, plus the original
 
 ## Live Deployment
 
-- Frontend (Vercel):[ https://dictionaryapp-9p5omh8z7-nikhilkumar905s-projects.vercel.app/](https://dictionaryapp-iota.vercel.app/)
+- Frontend (Vercel):https://dictionaryapp-iota.vercel.app/
 
 ## Screenshot
 
